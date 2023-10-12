@@ -7,7 +7,7 @@ public class TrabajoPractico4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Ejercicio 1: Calcular la media de una serie de números que se leen por teclado. (RUTH)
+        // Ejercicio 1: Calcular la media de una serie de números que se leen por teclado. 
         int sum = 0;
         int count = 0;
 
@@ -28,7 +28,7 @@ public class TrabajoPractico4 {
         }
 
         // Ejercicio 2: Programa que lea por teclado 10 números enteros y los guarde en un array.
-        // A continuación calcula y muestra la media de los números que estén en las posiciones pares del array. (RODRI)
+        // A continuación calcula y muestra la media de los números que estén en las posiciones pares del array. 
         int[] array = new int[10];
         int suma = 0;
         int contador = 0;
@@ -53,7 +53,7 @@ public class TrabajoPractico4 {
         }
 
         // Ejercicio 3: Programa que lee por teclado la nota de los alumnos de una clase y calcula la nota media del grupo.
-        // También muestra los alumnos con notas superiores a la media. El número de alumnos se lee por teclado. (Thomy)
+        // También muestra los alumnos con notas superiores a la media. El número de alumnos se lee por teclado. 
         System.out.println("Ingrese la cantidad de estudiantes");
         int cantStudents = sc.nextInt();
         double studentMarks[], markSum = 0, average;
@@ -82,7 +82,7 @@ public class TrabajoPractico4 {
             }
         }
 
-        // Ejercicio 4: Programa que crea un array de 20 elementos llamado Pares y guarda los 20 primeros números pares. (Paula)
+        // Ejercicio 4: Programa que crea un array de 20 elementos llamado Pares y guarda los 20 primeros números pares. 
         int[] Pares = new int[20];
         for (int i = 0; i < 20; i++) {
             Pares[i] = i * 2;
@@ -92,7 +92,7 @@ public class TrabajoPractico4 {
         System.out.println(Arrays.toString(Pares));
 
         // Ejercicio 5: Programa Java que guarda en un array 10 números enteros que se leen por teclado.
-        // A continuación se recorre el array y calcula cuántos números son positivos, cuántos negativos y cuántos ceros. (Ruth)
+        // A continuación se recorre el array y calcula cuántos números son positivos, cuántos negativos y cuántos ceros. 
         int[] numeros = new int[10];
         int positivos = 0, negativos = 0, ceros = 0;
 
@@ -113,7 +113,7 @@ public class TrabajoPractico4 {
         System.out.println("Ceros: " + ceros);
 
         // Ejercicio 6: Programa Java que llene un array con 10 números enteros que se leen por teclado.
-        // A continuación calcula y muestra la media de los valores positivos y la de los valores negativos del array. (RODRIGO)
+        // A continuación calcula y muestra la media de los valores positivos y la de los valores negativos del array. 
         int[] array2 = new int[10];
         int positive_sum = 0, negative_sum = 0, counter2 = 0;
 
@@ -136,7 +136,7 @@ public class TrabajoPractico4 {
         System.out.println("Promedio de números negativos: " + (negative_sum / counter2));
 
         // Ejercicio 7: Programa Java para leer la altura de N personas y calcular la altura media.
-        // Calcular cuántas personas tienen una altura superior a la media y cuántas tienen una altura inferior a la media. (Paula)
+        // Calcular cuántas personas tienen una altura superior a la media y cuántas tienen una altura inferior a la media. 
         System.out.println("Ingresar cantidad de personas:");
 
         if (sc.hasNextInt()) {
@@ -176,7 +176,7 @@ public class TrabajoPractico4 {
             System.out.println("No has ingresado un numero entero, reinicie el programa");
         }
 
-        // Ejercicio 8: Programa Java que lea el nombre y el sueldo de 20 empleados y muestre el nombre y el sueldo del empleado que más gana. (Paula)
+        // Ejercicio 8: Programa Java que lea el nombre y el sueldo de 20 empleados y muestre el nombre y el sueldo del empleado que más gana. 
         String[] nombres = new String[5];
         double[] sueldos = new double[5];
         double mayorSueldo = 0;
@@ -209,7 +209,7 @@ public class TrabajoPractico4 {
         System.out.println("Números aleatorios:");
         System.out.println(Arrays.toString(arr));
 
-        // Ejercicio 10: Programa Java para sumar dos matrices de número enteros. (RODRIGO)
+        // Ejercicio 10: Programa Java para sumar dos matrices de número enteros. 
         System.out.println("Ingresa la primer dimension de las matrices");
         int n1 = sc.nextInt();
         System.out.println("Ingresa la segunda dimension de las matrices");
@@ -250,7 +250,7 @@ public class TrabajoPractico4 {
         System.out.println("Matriz C");
         mostrarMatriz(matrizC);
 
-        // Ejercicio 11: Programa Java para obtener la matriz transpuesta de una matriz. (RODRIGO)
+        // Ejercicio 11: Programa Java para obtener la matriz transpuesta de una matriz.
         System.out.println("Ingrese el número de filas:");
         int filasM = sc.nextInt();
 
