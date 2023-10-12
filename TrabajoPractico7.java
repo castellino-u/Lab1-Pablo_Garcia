@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class TrabajoPractico7 {
-    // Ejercicio 1: Ordenar un array de números enteros de menor a mayor. (Thomy)
+    // Ejercicio 1: Ordenar un array de números enteros de menor a mayor.
     public static void ordenarMenorAMayor() {
         int[] unOrderNums = {5, 8, 18, 44, 95, 2};
         Arrays.sort(unOrderNums);
@@ -11,7 +11,7 @@ public class TrabajoPractico7 {
             System.out.println(s);
     }
 
-    // Ejercicio 2: Ordenar un array de números enteros de mayor a menor. (RODRIGO)
+    // Ejercicio 2: Ordenar un array de números enteros de mayor a menor. 
     public static void ordenarMayorAMenor() {
         Scanner sc = new Scanner(System.in);
         Integer[] arrayNum = {2, 6, 7, 3, 1, 0, 10};
@@ -20,7 +20,7 @@ public class TrabajoPractico7 {
             System.out.println(item);
     }
 
-    // Ejercicio 3: Ordenar un array de números flotantes de menor a mayor. (Rodrigo)
+    // Ejercicio 3: Ordenar un array de números flotantes de menor a mayor.
     public static void ordenarFlotantesMenorAMayor() {
         Scanner sc = new Scanner(System.in);
         float[] arrayNum = {2f, 6f, 7f, 3f, 1f, 0f, 10f};
@@ -29,7 +29,7 @@ public class TrabajoPractico7 {
             System.out.println(item);
     }
 
-    // Ejercicio 4: Ordenar un array de números flotantes de mayor a menor. (Thomy)
+    // Ejercicio 4: Ordenar un array de números flotantes de mayor a menor. 
     public static void ordenarFlotantesMayorAMenor() {
         double[] unOrderNums = {5.66, 8, 18, 44.44, 95, 2};
         Arrays.sort(unOrderNums);
@@ -38,7 +38,7 @@ public class TrabajoPractico7 {
         }
     }
 
-    // Ejercicio 5: Ordenar un array de cadenas de texto en orden alfabético. (Thomy)
+    // Ejercicio 5: Ordenar un array de cadenas de texto en orden alfabético. 
     public static void ordenarCadenasAlfabeticamente() {
         String[] strArray = {"Thomas", "Paula", "Eze", "Rodrigo", "Julieta", "Denis", "Uriel", "Zamora", "Ana", "Belén"};
         Arrays.sort(strArray);
@@ -46,7 +46,7 @@ public class TrabajoPractico7 {
             System.out.println(s);
     }
 
-    // Ejercicio 6: Ordenar un array de cadenas de texto en orden inverso. (Rodrigo)
+    // Ejercicio 6: Ordenar un array de cadenas de texto en orden inverso. 
     public static void ordenarCadenasInverso() {
         Scanner sc = new Scanner(System.in);
         String[] cadenas = {"Java", "Pablo", "Thomas"};
@@ -55,7 +55,7 @@ public class TrabajoPractico7 {
             System.out.println(item);
     }
 
-    // Ejercicio 7: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento burbuja. (Thomy)
+    // Ejercicio 7: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento burbuja. 
     public static void ordenarBurbuja() {
         int[] bubbleInt = {4, 7, 2, 18, 92, 25, 44, 15};
         int i, j, aux;
@@ -72,7 +72,7 @@ public class TrabajoPractico7 {
             System.out.println(s);
     }
 
-    // Ejercicio 8: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento por selección. (RODRIGO)
+    // Ejercicio 8: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento por selección. 
     public static void ordenarSeleccion() {
         int[] array = {2, 1, 20, 4, 5, 6, 102};
         int aux, minimo;
@@ -94,7 +94,7 @@ public class TrabajoPractico7 {
         System.out.println(Arrays.toString(array));
     }
 
-    // Ejercicio 9: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento por inserción. (Thomy)
+    // Ejercicio 9: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento por inserción. 
     public static void ordenarInsercion() {
         int[] inser = {30, 150, 2, 21, 44, 8};
         int aux, p, j;
@@ -116,7 +116,7 @@ public class TrabajoPractico7 {
         }
     }
 
-    // Ejercicio 10: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento por mezcla. (Paula)
+    // Ejercicio 10: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento por mezcla. 
     public static void ordenarMezcla() {
         Scanner sc = new Scanner(System.in);
         int[] A = new int[10];
@@ -164,7 +164,7 @@ public class TrabajoPractico7 {
             A[k++] = B[i++]; //primera mitad (si los hay)
     }
 
-    // Ejercicio 11: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento shell. (Uriel)
+    // Ejercicio 11: Ordenar un array de números enteros utilizando el algoritmo de ordenamiento shell. 
     public static void ordenarShell() {
         int[] arreglo1 = new int[10];
         for (int i = 0; i < 10; i++) {
@@ -209,7 +209,7 @@ public class TrabajoPractico7 {
         }
     }
 
-    // Ejercicio 12: Cargar y ordenar un array según opciones dadas por el usuario. (Ruth)
+    // Ejercicio 12: Cargar y ordenar un array según opciones dadas por el usuario. 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
